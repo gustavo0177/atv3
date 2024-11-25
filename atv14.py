@@ -6,6 +6,6 @@ class Eletrodomestico:
     def ligar(self):
         print(f"{self.nome} está ligado, consumindo {self.potencia}W.")
 
-# Testando a classe Eletrodoméstico
+
 eletro = Eletrodomestico("Micro-ondas", 1200)
 eletro.ligar()
