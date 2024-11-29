@@ -13,7 +13,7 @@ class ContaBancaria:
         else:
             print("Saldo insuficiente.")
 
-# Testando a classe ContaBancaria
+
 conta = ContaBancaria(100)
 conta.depositar(50)
 conta.sacar(30)

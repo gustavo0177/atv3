@@ -6,6 +6,6 @@ class Filme:
     def exibir_detalhes(self):
         print(f"Título: {self.titulo}, Duração: {self.duracao} minutos")
 
-# Testando a classe Filme
+
 filme = Filme("Inception", 148)
 filme.exibir_detalhes()
